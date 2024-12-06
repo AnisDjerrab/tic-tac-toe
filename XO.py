@@ -33,7 +33,7 @@ def robot(choix1, choix2, choix3, choix4, choix5, choix6, choix7, choix8, choix9
     print("go")
 
     #attaquer
-    elif choix1 == 3 and choix2 == 3 and choix3 == 1:
+    if choix1 == 3 and choix2 == 3 and choix3 == 1:
         choix3 = 3
     elif choix1 == 3 and choix3 == 3 and choix2 == 1:
         choix2 = 3
@@ -86,7 +86,7 @@ def robot(choix1, choix2, choix3, choix4, choix5, choix6, choix7, choix8, choix9
     
 
     #contrer
-    if choix1 == 0 and choix2 == 0 and choix3 == 1:
+    elif choix1 == 0 and choix2 == 0 and choix3 == 1:
         choix3 = 3
     
     elif choix1 == 0 and choix3 == 0 and choix2 == 1:
